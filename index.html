@@ -10,13 +10,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
     <!-- Fontes -->
-    <link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Slabo+13px&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
+
+    <!-- JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
 
 </head>
 
@@ -98,25 +109,84 @@
 
         <div id="div-serv">
 
-            <h6 class="text-center"> SERVIÇOS</h6>
+            <h6 class="text-center" style="padding-bottom: 2%;"> SERVIÇOS</h6>
+
+            <div class="accordion" id="accordion-serv">
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" data-toggle="collapse" data-target="#collapse1"
+                        aria-expanded="false" role="button" id="PPP">
+                        <h6 class="collapse-titulo">
+                            Perfil Profissiografico Previdenciario
+                        </h6>
+                    </div>
+                    <div id="collapse1" class="collapse" data-parent="#accordion-serv">
+                        <div class="card-body">
+                            O Perfil Profissiográfico Previdenciário (PPP) é um documento que serve para reunir dados
+                            sobre a história laboral do empregado, citando, entre outras informações, dados
+                            administrativos, registros ambientais e resultados de monitoração biológica, de todo o
+                            período.
+                            O formulário deve ser preenchido pelas empresas que exercem atividades que exponham seus
+                            empregados a agentes nocivos, químicos, físicos, biológicos ou associação de agentes
+                            prejudiciais à saúde ou à integridade física. Este documento será usado somente para
+                            aposentadoria. Além disso, todos os empregadores e instituições que admitam trabalhadores
+                            como empregados do Programa de Prevenção de Riscos Ambientais e do Programa de Controle
+                            Médico de Saúde Ocupacional, de acordo com Norma Regulamentadora nº 9 da Portaria nº
+                            3.214/78 do MTE, também devem preencher o PPP. O PPP deve ser entregue ao trabalhador assim
+                            que desligado da empresa.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2"
+                        aria-expanded="false" role="button" id="PPRA">
+                        <h6 class="collapse-titulo">
+                            Programa de prevenção de riscos ambientais
+                        </h6>
+                    </div>
+                    <div id="collapse2" class="collapse" data-parent="#accordion-serv">
+                        <div class="card-body">
+                            O Programa de Prevenção de Riscos Ambientais (PPRA) é regulamentado pela NR9, desde o ano de
+                            1994, e estabelece a todos os empregados e instituições a obrigação de promover ações com
+                            objetivo de preservar a saúde e a integridade dos trabalhadores, por meio do reconhecimento,
+                            antecipação, avaliação e consequente controle da ocorrência de riscos ambientais existentes
+                            ou que venham a existir no ambiente de trabalho, levando em consideração a proteção do meio
+                            ambiente e dos recursos naturais. O PPRA é parte integrante de um conjunto mais amplo de
+                            iniciativas da empresa no campo da preservação da saúde e da integridade dos trabalhadores,
+                            devendo estar articulado com o Programa de Controle Médico de Saúde Ocupacional (PCMSO).
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3"
+                        aria-expanded="false" role="button" id="PCA">
+                        <h6 class="collapse-titulo">
+                            Programa de Concervação Auditiva
+                        </h6>
+                    </div>
+                    <div id="collapse3" class="collapse" data-parent="#accordion-serv">
+                        <div class="card-body">
+                            PCA é um programa de ação multiprofissional, cuja implantação é exigida pelas Normas
+                            Regulamentadoras do Ministério do Trabalho, representado pela ação conjunta da Engenharia de
+                            Segurança, Medicina do Trabalho, Fonoaudiologia, e Recursos Humanos, com o objetivo de
+                            prevenir a ocorrência ou o agravo de doenças relacionadas à exposição ao ruído, sendo a
+                            principal delas a Perda Auditiva Induzida por Ruído de Origem Ocupacional (PAIRO).
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
 
 
-        
         </div>
-    
+
     </div>
 
 
     <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+
 
 </body>
 

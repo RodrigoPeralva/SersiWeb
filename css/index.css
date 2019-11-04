@@ -3,7 +3,9 @@ body{
 }
 html{
     height: 100%;
-    font-family: Arial, Helvetica, sans-serif !important;
+}
+*{
+    font-family: 'Montserrat' ,Helvetica, sans-serif !important;
 }
 .cor-v{
     color: #88b06a !important;
@@ -52,4 +54,21 @@ hr{
 .hr-sm{
     border: 1px solid black;
     width: 50px;
+}
+.btn-link, .btn-link:hover, .collapsed, .collapsed:hover{
+    color: inherit;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    text-align: left;
+}
+.card-header{
+    background: #777777;
+    color: white;
+}
+.card-header:hover{
+    color: white !important;
+    background-color: #555;
+}
+.collapse-titulo{
+    padding: 6px 12px;
 }
