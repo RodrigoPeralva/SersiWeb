@@ -1,11 +1,9 @@
 body{
     height: 100%;
+    font-family: 'Montserrat' ,Helvetica, sans-serif !important;
 }
 html{
-    height: 100%;
-}
-*{
-    font-family: 'Montserrat' ,Helvetica, sans-serif !important;
+    height: max-content;
 }
 .cor-v{
     color: #88b06a !important;
@@ -75,4 +73,20 @@ hr{
 #div-serv-card{
     height: 327px !important;
     overflow: scroll !important;
+    box-shadow: 0 0 4px black;
+}
+
+@media (max-width: 992px){
+    #telefone{
+        padding-top: 3%;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #telefone{
+        position: absolute;
+        right:0; 
+        margin-right: 10%;
+
+    }
 }

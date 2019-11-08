@@ -63,8 +63,6 @@ Object.entries(listaServ).forEach((elemento, indice) => {
         meuCollapse = criarCollapse(siglaId, elemento[0], idBtn, titulo, texto)
 
         $(".accordion").append(meuCollapse)
-        console.log(titulo)
-        console.log("Funcionou")
     }
 
 });
