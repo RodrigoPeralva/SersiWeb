@@ -60,25 +60,25 @@ hr{
     text-align: left;
 }
 .card-header{
-    background: #777777;
-    color: white;
+    background: white;
+    color: black;
 }
 .card-header:hover{
     color: white !important;
-    background-color: #555;
+    background-color: #88b06a;
 }
 .collapse-titulo{
     padding: 6px 12px;
 }
 #div-serv-card{
-    height: 327px !important;
+    /* height: 327px !important; */
     overflow: scroll !important;
-    box-shadow: 0 0 4px black;
+    /* box-shadow: 0 0 4px black; */
+    overflow-x: hidden !important;
 }
 
 @media (max-width: 992px){
     #telefone{
-        padding-top: 3%;
     }
 }
 /* Large devices (desktops, 992px and up) */
@@ -86,7 +86,7 @@ hr{
     #telefone{
         position: absolute;
         right:0; 
-        margin-right: 10%;
+        margin-right: 5%;
 
     }
 }
