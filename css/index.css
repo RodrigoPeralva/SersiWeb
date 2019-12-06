@@ -87,7 +87,7 @@ hr{
     color: #88b06a !important;
 }
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) { 
+/* @media (min-width: 992px) { 
     #telefone{
         position: absolute;
         right:0; 
@@ -155,6 +155,30 @@ hr{
     #img-sobre{
         height: 330px;
         margin-top: 2% !important;
+    }
+}
+@media (min-width: 1366px){
+    #img-sobre{
+        height: 270px;
+        margin-top: 8% !important;
+    }
+} */
+
+@media (min-width: 1366px){
+    #img-sobre{
+        margin-top: 7%;
+        height: 75%;
+    }
+}
+
+#div-missao{
+    margin-top: 5%;
+}
+
+@media (min-width: 1366px){
+    #img-missao{
+        margin-top: 3%;
+        height: 75%;
     }
 }
 
