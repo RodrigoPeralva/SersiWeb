@@ -217,7 +217,7 @@ hr{
 }
 
 #div-serv{
-    margin-top: 5%;
+    margin-top: 3%;
     margin-bottom: 2%;
 }
 
@@ -226,7 +226,19 @@ hr{
     margin-bottom: 2%;
 }
 
+#div-vendas{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
 
+#div-treinamentos{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+#div-text-treinamento{
+    margin-top: 4%;
+}
 
 
 #footer{
